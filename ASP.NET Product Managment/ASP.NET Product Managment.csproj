@@ -7,4 +7,8 @@
     <RootNamespace>ASP.NET_Product_Managment</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\Abstracts\" />
+  </ItemGroup>
+
 </Project>
