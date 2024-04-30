@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ASP.NET Product Managment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad5f4e061e522685e602e4e0bd4dfe8a3ecd438d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e06113d2a03997ac2dae6290ac97b9ea3f4924b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ASP.NET Product Managment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ASP.NET Product Managment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

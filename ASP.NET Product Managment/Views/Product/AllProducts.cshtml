@@ -1,15 +1,12 @@
 ﻿@model List<Product>
-@using ASP.NET_Product_Managment.Models.Conceretes
-
+<h1>Products</h1>
 <div class="container">
-    <ul>
-        <h1>All Product List:</h1>
-        @foreach(var product in Model) {
-            <li>Id:@product.Id</li>
-            <li>Name:@product.Name</li>
-            <li>Price:@product.Price</li>
-
-            <br />
-        }
-    </ul>
+    
+    @foreach(var product in Model) {
+        <a class="item" href=ProductById/@product.Id>
+            <img src=@product.ImageUrl >
+            <p>Name:@product.Name</p>
+            <p>Price:@product.Price</p>
+        </a>
+    }
 </div>
